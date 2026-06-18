@@ -85,20 +85,20 @@ no signup.
 
 ## Receipt URLs ready to drop in the deck
 
-These are STAGE URLs captured 2026-06-18 — replace with fresh PROD
-URLs after Thursday prod deploy:
+Fresh PROD URLs captured 2026-06-18 — pre-load these in browser tabs
+before the meeting:
 
-- `account_setup_with_campaign_and_number` (4/4 green, 80ms):
-  stage.fetchsandbox.com/runs/33ed061620?flow=run_19cc72ef-f963-4817-a0ef-4becd9be0a5b
+- `account_setup_with_campaign_and_number` (4/4 green, 68ms):
+  https://fetchsandbox.com/runs/ebe5482c34?flow=run_12356b4c-553c-4ecb-b2b3-9dd55aa7a8a3
 
-- `send_message_observe_delivery_lifecycle` (3/3 green, 53ms):
-  stage.fetchsandbox.com/runs/33ed061620?flow=run_a8990c1d-476e-4b61-8f71-fa36809c2759
+- `send_message_observe_delivery_lifecycle` (3/3 green, 55ms):
+  https://fetchsandbox.com/runs/ebe5482c34?flow=run_0b259368-7ca6-490a-95e6-88f4f4faa948
 
-- `contact_audience_blast_lifecycle` (5/5 green, 99ms):
-  stage.fetchsandbox.com/runs/33ed061620?flow=run_66e40bc5-1600-4326-81d4-588caea6bf0c
+- `contact_audience_blast_lifecycle` (5/5 green, 97ms):
+  https://fetchsandbox.com/runs/ebe5482c34?flow=run_d82d6708-90c4-4ba2-8cee-c834eb3d1370
 
 - `verification_lifecycle_opt_in_compliance` (3/3 green, 59ms):
-  stage.fetchsandbox.com/runs/33ed061620?flow=run_d1a982ef-8965-4506-adc9-e26a193c226e
+  https://fetchsandbox.com/runs/ebe5482c34?flow=run_f98e96b3-96f9-4cae-a2b7-a034a4c73a27
 
 ---
 
