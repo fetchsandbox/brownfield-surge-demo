@@ -1,0 +1,29 @@
+# env (keep examples, never commit real .env)
+.env
+.env.local
+.env.*.local
+
+# deps
+node_modules/
+.pnp.*
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# next.js build artifacts
+.next/
+out/
+*.tsbuildinfo
+
+# system
+.DS_Store
+.idea/
+.vscode/
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*

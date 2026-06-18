@@ -1,0 +1,24 @@
+{
+  "name": "brownfield-surge-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Brownfield Next.js + FastAPI orders app with three documented gaps (Surge account+campaign setup, send shipped-SMS notification, receive delivery webhook). Agent uses fetchsandbox MCP + the Surge Tier-1 spec to wire the gaps without burning a real Surge API key.",
+  "scripts": {
+    "dev:web": "pnpm --filter ./web dev",
+    "dev:server": "cd server && uvicorn main:app --env-file .env --reload --port 8000",
+    "dev": "concurrently \"pnpm dev:server\" \"pnpm dev:web\""
+  },
+  "dependencies": {
+    "next": "^15.0.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@clerk/nextjs": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.6.3",
+    "concurrently": "^9.1.0"
+  },
+  "packageManager": "pnpm@9.12.3"
+}
