@@ -1,5 +1,8 @@
 # Acme Orders — SMS notifications
 
+<a href="https://www.producthunt.com/products/fetchsandbox?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-fetchsandbox" target="_blank" rel="noopener noreferrer"><img alt="FetchSandbox - Runnable API integrations for developers and AI agents | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1175731&theme=light"></a>
+
+
 A small orders app that wants to send SMS notifications to customers
 when their orders ship. Next.js 15 (App Router) on the front, FastAPI
 on the back, Clerk for sign-in. **Surge is not wired yet** — that's
